@@ -1,0 +1,87 @@
+body {
+  border: none;
+}
+.section {
+  padding: 20px;
+}
+nav {
+  background-color: #333;
+  color: rgb(72, 74, 238);
+  padding: 20px;
+}
+nav h2 {
+  margin-right: 30px;
+  color: rgb(107, 60, 151);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10;
+  display: inline;
+  margin-left: 30%;
+}
+
+nav li {
+  display: inline;
+  margin-right: 65px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  display: flex;
+}
+
+.content {
+  text-align: center;
+  padding: 15px;
+}
+
+.social {
+    padding: 20px;
+    margin-top: 1.5rem;
+}
+
+.social a {
+    color: #00E8F8;
+    font-size: 1rem;
+    border: 1.6px solid #00E8F8;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: .50rem;
+    text-align: center;
+    width: 26px;
+}
+
+.social a:hover {
+    color: #1F252E;
+    background-color: #00E8F8;
+    box-shadow: 0 0 20px #00E8F8;
+    transition: all .3s ease-in-out;
+}
+
+.card {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #f3dcdc;
+  color: rgb(59, 62, 230);
+  padding: 10px;
+  text-align: center;
+}
